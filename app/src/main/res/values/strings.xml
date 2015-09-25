@@ -1,7 +1,29 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Memento</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_registro">Registro</string>
+    <string name="titCorreo">Ingrese Correo</string>
+    <string name="titClave">Ingrese clave de acceso</string>
+    <string name="titRClave">Repita clave de acceso</string>
+    <string name="titNUsuario">Nombre de usuario</string>
+    <string name="titNombre">Nombre</string>
+    <string name="titApellido">Apellido</string>
+    <string name="titFDNacimiento">Fecha de nacimiento</string>
+    <string name="titPais">País</string>
+    <string name="titATYCondiciones">Acepto términos y condiciones</string>
+    <string name="checkCondiciones">New CheckBox</string>
+    <string name="botonRegistrar">Registrar</string>
+    <string name="titGenero">Género</string>
+    <string name="titTelefono">Telefono</string>
+    <string name="aceptoTYCondiciones">Acepto términos y condiciones</string>
+    <string name="nombreUsuario">Nombre de usuario</string>
+    <string name="clave">Clave</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarse">Registrarse</string>
+    <string-array name="genero">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+
 </resources>

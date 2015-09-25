@@ -17,19 +17,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Nombre de usuario"
-            android:id="@+id/textView" />
+            android:text="@string/nombreUsuario"
+            android:id="@+id/checkBox" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/txtUsuario" />
+            android:id="@+id/txtUsuario"
+            android:inputType="text" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Clave"
+            android:text="@string/clave"
             android:id="@+id/textView2" />
 
         <EditText
@@ -42,14 +43,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ingresar"
+            android:text="@string/ingresar"
             android:id="@+id/ingresar"
             android:layout_gravity="center_horizontal" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registrarse"
+            android:text="@string/registrarse"
             android:id="@+id/registrar" />
     </LinearLayout>
 </RelativeLayout>
