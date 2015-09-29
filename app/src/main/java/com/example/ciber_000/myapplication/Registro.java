@@ -1,7 +1,6 @@
 package com.example.ciber_000.myapplication;
 
 import android.app.Activity;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,16 +8,26 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.Spinner;
 
 
 public class Registro extends Activity implements OnItemSelectedListener{
-    Spinner spinner;
+
+    EditText txtCorreo,txtPassword,txtRPassword,txtUsuario,txtNombre,txtApellido,dia,mes,año,txtTelefono,txtPais;
+    CheckBox aTyC;
+
+    private Spinner spinner;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro);
 
+        final String[] datos=new String[]{"Hombre","Mujer"};
+
+        ArrayAdapter<String> adaptador=new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item, datos);
         spinner=(Spinner)findViewById(R.id.spinner);
 
         ArrayAdapter adapter=ArrayAdapter.createFromResource(this,R.array.genero,android.R.layout.simple_spinner_item);

@@ -25,5 +25,8 @@
         <item>Hombre</item>
         <item>Mujer</item>
     </string-array>
+    <string name="title_activity_menu">Menu</string>
+
+    <string name="hello_world">Hello world!</string>
 
 </resources>
